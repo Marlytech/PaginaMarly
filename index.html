@@ -15,30 +15,40 @@
 
     <!-- Navbar -->
     <header class="fixed w-full bg-white/90 backdrop-blur-md border-b border-slate-200 z-50">
-        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-            <a href="#" class="font-extrabold text-xl tracking-tight text-slate-900">
-                MARLY <span class="text-blue-600">TECH</span>
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <!-- Logo reemplazado por la imagen/marca oficial -->
+            <a href="#" class="flex items-center gap-2">
+                <!-- Puedes enlazar tu logo aquí (e.g. logo.png) -->
+                <div class="flex items-center">
+                    <span class="text-blue-600 text-2xl mr-1"><i class="fa-solid fa-microchip"></i></span>
+                    <div class="leading-tight">
+                        <span class="font-extrabold text-xl tracking-tight text-slate-900 block">MARLY</span>
+                        <span class="text-[10px] uppercase font-bold tracking-widest text-emerald-500 block -mt-1">TECH SOLUTIONS</span>
+                    </div>
+                </div>
             </a>
-            <nav class="hidden md:flex space-x-8 text-sm font-medium text-slate-600">
+            <nav class="hidden md:flex space-x-8 text-sm font-medium text-slate-600 items-center">
                 <a href="#nosotros" class="hover:text-blue-600 transition">Nosotros</a>
-                <a href="#soluciones" class="hover:text-blue-600 transition">Soluciones</a>
+                <a href="#servicios" class="hover:text-blue-600 transition">Servicios</a>
                 <a href="#metodologia" class="hover:text-blue-600 transition">Metodología</a>
                 <a href="#planes" class="hover:text-blue-600 transition">Fases</a>
+                <!-- El mundo anterior ahora es una M del color del logo -->
+                <span class="font-black text-xl bg-gradient-to-r from-blue-600 to-emerald-400 bg-clip-text text-transparent ml-2 select-none">M</span>
             </nav>
-            <a href="https://wa.me/527291541915?text=Hola%20Marly%20Tech%20Solutions,%20me%20gustar%C3%ADa%20agendar%20un%20diagn%C3%B3stico." target="_blank" class="bg-blue-600 hover:bg-blue-700 text-white text-sm font-semibold px-4 py-2 rounded-lg transition shadow-sm">
+            <a href="https://wa.me/527291541915?text=Hola%20Marly%20Tech%20Solutions,%20me%20gustar%C3%ADa%20agendar%20un%20diagn%C3%B3stico." target="_blank" class="bg-blue-600 hover:bg-blue-700 text-white text-sm font-semibold px-4 py-2-5 rounded-lg transition shadow-sm">
                 Diagnóstico Gratis
             </a>
         </div>
     </header>
 
     <!-- Hero Section -->
-    <section class="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 text-white">
+    <section class="pt-36 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-900 via-slate-800 to-slate-950 text-white">
         <div class="max-w-4xl mx-auto text-center">
             <span class="inline-block py-1 px-3 rounded-full bg-blue-500/20 text-blue-300 text-xs font-semibold tracking-wider uppercase mb-4 border border-blue-400/30">
                 Consultoría en Desarrollo de Software y Soluciones Digitales
             </span>
             <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight mb-6">
-                Estrategia antes que la herramienta: <span class="text-blue-400">Automatiza tu operación.</span>
+                Estrategia antes que la herramienta: <span class="bg-gradient-to-r from-blue-400 to-emerald-400 bg-clip-text text-transparent">Automatiza tu operación.</span>
             </h1>
             <p class="text-lg sm:text-xl text-slate-300 mb-10 max-w-2xl mx-auto leading-relaxed">
                 Identificamos y eliminamos cuellos de botella en tu negocio diseñando soluciones tecnológicas 100% a la medida. Que la tecnología trabaje para ti, y no tú para la tecnología.
@@ -47,7 +57,7 @@
                 <a href="https://wa.me/527291541915?text=Hola,%20quisiera%20solicitar%20una%20demostraci%C3%B3n%20sin%20costo." target="_blank" class="bg-blue-600 hover:bg-blue-500 text-white font-semibold px-8 py-4 rounded-xl shadow-lg shadow-blue-600/30 transition flex items-center justify-center gap-2">
                     <i class="fa-brands fa-whatsapp text-xl"></i> Solicitar Demostración
                 </a>
-                <a href="#soluciones" class="bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 font-semibold px-8 py-4 rounded-xl transition">
+                <a href="#servicios" class="bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 font-semibold px-8 py-4 rounded-xl transition">
                     Explorar Servicios
                 </a>
             </div>
@@ -73,7 +83,7 @@
                         </div>
                     </div>
                     <div class="flex items-start gap-3">
-                        <div class="w-8 h-8 rounded-lg bg-blue-100 text-blue-600 flex items-center justify-center shrink-0 mt-1">
+                        <div class="w-8 h-8 rounded-lg bg-emerald-100 text-emerald-600 flex items-center justify-center shrink-0 mt-1">
                             <i class="fa-solid fa-bolt"></i>
                         </div>
                         <div>
@@ -91,17 +101,18 @@
                     </p>
                 </div>
                 <div class="mb-6 pb-6 border-b border-slate-100">
-                    <span class="text-xs font-bold uppercase tracking-wider text-blue-600">Visión</span>
+                    <span class="text-xs font-bold uppercase tracking-wider text-emerald-600">Visión</span>
                     <p class="text-slate-700 text-sm mt-2 leading-relaxed">
                         Ser la consultoría referente en soluciones digitales, construyendo organizaciones que operen sin cuellos de botella ni cargas manuales.
                     </p>
                 </div>
                 <div class="flex items-center gap-4">
-                    <div class="w-12 h-12 rounded-full bg-slate-900 text-white flex items-center justify-center font-bold text-lg">
+                    <div class="w-12 h-12 rounded-full bg-gradient-to-tr from-blue-600 to-emerald-400 text-white flex items-center justify-center font-bold text-lg shadow-sm">
                         MM
                     </div>
                     <div>
-                        <p class="font-bold text-slate-900 text-sm">LIAF. Mariana Méndez García</p>
+                        <!-- Nombre de la fundadora modificado a Méndez -->
+                        <p class="font-bold text-slate-900 text-sm">LIAF. Mariana Méndez</p>
                         <p class="text-xs text-slate-500">Fundadora & CEO | Lic. en Informática Administrativa y Financiera</p>
                     </div>
                 </div>
@@ -109,58 +120,124 @@
         </div>
     </section>
 
-    <!-- A quién ayudamos & Soluciones -->
-    <section id="soluciones" class="py-20 bg-white border-y border-slate-200 px-4 sm:px-6 lg:px-8">
+    <!-- Seccion de Servicios Actualizada -->
+    <section id="servicios" class="py-20 bg-white border-y border-slate-200 px-4 sm:px-6 lg:px-8">
         <div class="max-w-6xl mx-auto">
             <div class="text-center max-w-2xl mx-auto mb-16">
-                <h2 class="text-3xl font-bold text-slate-900 mb-3">Soluciones Diseñadas para Escalar</h2>
-                <p class="text-slate-600">Atendemos a PyMEs, profesionistas independientes y gerentes de área que buscan orden, control y crecimiento.</p>
+                <h2 class="text-3xl font-bold text-slate-900 mb-3">Nuestros Servicios y Soluciones</h2>
+                <p class="text-slate-600">Soluciones de software y herramientas de conectividad para que tu negocio crezca sin límites.</p>
             </div>
 
-            <div class="grid md:grid-cols-3 gap-8">
-                <!-- Card 1 -->
-                <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 hover:border-blue-300 transition">
-                    <div class="w-12 h-12 rounded-xl bg-blue-600 text-white flex items-center justify-center text-xl mb-5">
-                        <i class="fa-solid fa-laptop-code"></i>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Servicio 1: Tarjeta Digital de Recompensas -->
+                <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 hover:border-emerald-300 transition flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-xl bg-gradient-to-tr from-blue-600 to-emerald-500 text-white flex items-center justify-center text-xl mb-5">
+                            <i class="fa-solid fa-mobile-screen"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-3">Tarjeta Digital de Recompensas</h3>
+                        <p class="text-sm text-slate-600 mb-4 leading-relaxed">
+                            <strong>¡Haz que tus clientes regresen siempre!</strong> Diseñamos tu propia Tarjeta Digital de Recompensas sin que tus clientes tengan que instalar aplicaciones. 
+                        </p>
+                        <ol class="text-xs text-slate-500 space-y-2 mb-4">
+                            <li><strong>1.</strong> Escanean el código QR en tu mostrador.</li>
+                            <li><strong>2.</strong> Acumulan un porcentaje con cada compra hacia un premio.</li>
+                            <li><strong>3.</strong> Reciben promociones y estatus directo en su WhatsApp.</li>
+                        </ol>
                     </div>
-                    <h3 class="text-xl font-bold text-slate-900 mb-3">Apps y Sistemas a Medida</h3>
-                    <p class="text-sm text-slate-600 mb-4 leading-relaxed">
-                        CRMs personalizados, portales de clientes, control de inventarios y gestión de expedientes accesibles desde cualquier dispositivo.
-                    </p>
-                    <ul class="text-xs text-slate-500 space-y-2">
-                        <li>• Arquitectura Low-Code / No-Code</li>
-                        <li>• Bases de datos relacionales en la nube</li>
-                    </ul>
+                    <span class="text-xs font-semibold text-emerald-600 bg-emerald-50 py-1 px-3 rounded-full self-start">Fidelización Instantánea</span>
                 </div>
 
-                <!-- Card 2 -->
-                <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 hover:border-blue-300 transition">
-                    <div class="w-12 h-12 rounded-xl bg-blue-600 text-white flex items-center justify-center text-xl mb-5">
-                        <i class="fa-solid fa-gears"></i>
+                <!-- Servicio 2: Tarjetas de Presentación Digitales NFC -->
+                <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 hover:border-blue-300 transition flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-xl bg-gradient-to-tr from-blue-600 to-emerald-500 text-white flex items-center justify-center text-xl mb-5">
+                            <i class="fa-solid fa-address-card"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-3">Tarjetas de Presentación NFC</h3>
+                        <p class="text-sm text-slate-600 mb-4 leading-relaxed">
+                            <strong>Lleva tu negocio en el bolsillo con Marly.</strong> Olvídate de las tarjetas de papel. Comparte tus datos de contacto, enlaces y redes de forma rápida y moderna con solo un toque en el celular.
+                        </p>
+                        <ul class="text-xs text-slate-500 space-y-2 mb-4">
+                            <li>• Contacto rápido y directo</li>
+                            <li>• Enlace a tus redes sociales</li>
+                            <li>• Código QR de respaldo</li>
+                        </ul>
                     </div>
-                    <h3 class="text-xl font-bold text-slate-900 mb-3">Automatización e IA Operativa</h3>
-                    <p class="text-sm text-slate-600 mb-4 leading-relaxed">
-                        Conectamos tus herramientas actuales para eliminar tareas repetitivas, extraer datos de documentos y generar reportes automáticos.
-                    </p>
-                    <ul class="text-xs text-slate-500 space-y-2">
-                        <li>• Flujos inteligentes (Make, Zapier, Power Automate)</li>
-                        <li>• Clasificación de datos y asistentes con IA</li>
-                    </ul>
+                    <span class="text-xs font-semibold text-blue-600 bg-blue-50 py-1 px-3 rounded-full self-start">Identidad Digital</span>
                 </div>
 
-                <!-- Card 3 -->
-                <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 hover:border-blue-300 transition">
-                    <div class="w-12 h-12 rounded-xl bg-blue-600 text-white flex items-center justify-center text-xl mb-5">
-                        <i class="fa-solid fa-chart-line"></i>
+                <!-- Servicio 3: Tarjetas NFC para Negocios Locales -->
+                <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 hover:border-emerald-300 transition flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-xl bg-gradient-to-tr from-blue-600 to-emerald-500 text-white flex items-center justify-center text-xl mb-5">
+                            <i class="fa-solid fa-store"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-3">Tarjetas NFC para Negocios Locales</h3>
+                        <p class="text-sm text-slate-600 mb-4 leading-relaxed">
+                            Moderniza la atención de tus clientes en tiendas físicas, restaurantes, estéticas o comercios. Permite pagos, accesos rápidos o enlaces a menús con tecnología NFC.
+                        </p>
+                        <ul class="text-xs text-slate-500 space-y-2 mb-4">
+                            <li>• Conexión sin fricción</li>
+                            <li>• Ahorro en impresión de insumos</li>
+                            <li>• Experiencia de usuario interactiva</li>
+                        </ul>
                     </div>
-                    <h3 class="text-xl font-bold text-slate-900 mb-3">Dashboards y Soporte Continuo</h3>
-                    <p class="text-sm text-slate-600 mb-4 leading-relaxed">
-                        Tableros de indicadores en tiempo real para toma de decisiones, capacitación a tu equipo y pólizas de mantenimiento preventivo.
-                    </p>
-                    <ul class="text-xs text-slate-500 space-y-2">
-                        <li>• Transferencia de conocimiento garantizada</li>
-                        <li>• Seguridad y cifrado de datos</li>
-                    </ul>
+                    <span class="text-xs font-semibold text-emerald-600 bg-emerald-50 py-1 px-3 rounded-full self-start">Ideal para PyMEs</span>
+                </div>
+
+                <!-- Servicio 4: Desarrollo de Software a Medida -->
+                <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 hover:border-blue-300 transition flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-xl bg-gradient-to-tr from-blue-600 to-emerald-500 text-white flex items-center justify-center text-xl mb-5">
+                            <i class="fa-solid fa-laptop-code"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-3">Desarrollo de Apps y Sistemas</h3>
+                        <p class="text-sm text-slate-600 mb-4 leading-relaxed">
+                            Creamos CRMs, portales de clientes y paneles de administración de inventarios o agenda adaptados 100% a la lógica de tu negocio o consultoría.
+                        </p>
+                        <ul class="text-xs text-slate-500 space-y-2 mb-4">
+                            <li>• Desarrollo ágil (Low-code y código propio)</li>
+                            <li>• Sistemas accesibles desde cualquier navegador</li>
+                        </ul>
+                    </div>
+                    <span class="text-xs font-semibold text-blue-600 bg-blue-50 py-1 px-3 rounded-full self-start">Software a Medida</span>
+                </div>
+
+                <!-- Servicio 5: Automatización de Flujos e IA -->
+                <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 hover:border-emerald-300 transition flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-xl bg-gradient-to-tr from-blue-600 to-emerald-500 text-white flex items-center justify-center text-xl mb-5">
+                            <i class="fa-solid fa-gears"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-3">Automatización e Inteligencia Artificial</h3>
+                        <p class="text-sm text-slate-600 mb-4 leading-relaxed">
+                            Enlazamos tus aplicaciones de uso diario y sumamos soluciones con IA para automatizar reportes financieros, envíos masivos e identificación de cuellos de botella sin margen de error humano.
+                        </p>
+                        <ul class="text-xs text-slate-500 space-y-2 mb-4">
+                            <li>• Integraciones con Make, Zapier y Power Automate</li>
+                            <li>• Lectura inteligente de archivos y base de datos</li>
+                        </ul>
+                    </div>
+                    <span class="text-xs font-semibold text-emerald-600 bg-emerald-50 py-1 px-3 rounded-full self-start">Cero Tareas Manuales</span>
+                </div>
+
+                <!-- Servicio 6: Pólizas de Soporte y Dashboards -->
+                <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 hover:border-blue-300 transition flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-xl bg-gradient-to-tr from-blue-600 to-emerald-500 text-white flex items-center justify-center text-xl mb-5">
+                            <i class="fa-solid fa-chart-line"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-3">Dashboards y Mantenimiento</h3>
+                        <p class="text-sm text-slate-600 mb-4 leading-relaxed">
+                            Mantenemos tus automatizaciones siempre listas. Además, estructuramos tableros de indicadores (Dashboards) para que supervises la salud de tu negocio con un clic.
+                        </p>
+                        <ul class="text-xs text-slate-500 space-y-2 mb-4">
+                            <li>• Capacitación constante al equipo</li>
+                            <li>• Mantenimiento preventivo e iteraciones</li>
+                        </ul>
+                    </div>
+                    <span class="text-xs font-semibold text-blue-600 bg-blue-50 py-1 px-3 rounded-full self-start">Control Continuo</span>
                 </div>
             </div>
         </div>
@@ -212,8 +289,8 @@
                         Primer contacto, presentación de catálogo de soluciones y visualización de prototipos para alinear expectativas.
                     </p>
                 </div>
-                <div class="bg-slate-800 p-6 rounded-2xl border-2 border-blue-500 relative">
-                    <span class="text-xs font-bold uppercase tracking-wider text-blue-400">Fase 1</span>
+                <div class="bg-slate-800 p-6 rounded-2xl border-2 border-emerald-500 relative">
+                    <span class="text-xs font-bold uppercase tracking-wider text-emerald-400">Fase 1</span>
                     <h3 class="text-xl font-bold mt-1 mb-2">Asesoría y Diseño</h3>
                     <p class="text-2xl font-extrabold text-white mb-4">$800 MXN</p>
                     <p class="text-sm text-slate-300 leading-relaxed">
@@ -236,16 +313,23 @@
     <footer id="contacto" class="bg-slate-950 text-slate-300 py-16 px-4 sm:px-6 lg:px-8 border-t border-slate-800">
         <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
             <div class="text-center md:text-left">
-                <h3 class="text-2xl font-extrabold text-white tracking-tight">MARLY <span class="text-blue-500">TECH SOLUTIONS</span></h3>
-                <p class="text-sm text-slate-400 mt-2">Orden, Control y Crecimiento para tu empresa.</p>
-                <p class="text-sm text-slate-400 mt-1">
+                <!-- Logotipo integrado en el footer -->
+                <div class="flex items-center justify-center md:justify-start">
+                    <span class="text-blue-500 text-3xl mr-2"><i class="fa-solid fa-microchip"></i></span>
+                    <div class="text-left leading-tight">
+                        <span class="font-extrabold text-2xl tracking-tight text-white block">MARLY</span>
+                        <span class="text-[11px] uppercase font-bold tracking-widest text-emerald-400 block -mt-1">TECH SOLUTIONS</span>
+                    </div>
+                </div>
+                <p class="text-sm text-slate-400 mt-3">Orden, Control y Crecimiento para tu empresa.</p>
+                <p class="text-sm text-slate-400 mt-2">
                     <i class="fa-solid fa-envelope text-blue-500 mr-2"></i>
                     <a href="mailto:marlytechsolutions@gmail.com" class="hover:text-white transition">marlytechsolutions@gmail.com</a>
                 </p>
             </div>
 
             <div class="flex flex-wrap justify-center gap-4">
-                <a href="https://wa.me/527291541915" target="_blank" class="flex items-center gap-2 bg-emerald-600 hover:bg-emerald-500 text-white px-5 py-3 rounded-xl font-medium text-sm transition">
+                <a href="https://wa.me/527291541915" target="_blank" class="flex items-center gap-2 bg-emerald-600 hover:bg-emerald-500 text-white px-5 py-3 rounded-xl font-medium text-sm transition shadow-sm">
                     <i class="fa-brands fa-whatsapp text-lg"></i> 729 154 1915
                 </a>
                 <a href="https://instagram.com/MARLYTECH" target="_blank" class="flex items-center gap-2 bg-slate-800 hover:bg-pink-600 text-white px-5 py-3 rounded-xl font-medium text-sm transition">
@@ -256,8 +340,13 @@
                 </a>
             </div>
         </div>
-        <div class="max-w-6xl mx-auto mt-10 pt-6 border-t border-slate-900 text-center text-xs text-slate-500">
-            © 2026 MARLY TECH SOLUTIONS. Todos los derechos reservados.
+        <div class="max-w-6xl mx-auto mt-10 pt-6 border-t border-slate-900 text-center flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-slate-500">
+            <p>© 2026 MARLY TECH SOLUTIONS. Todos los derechos reservados.</p>
+            <div class="flex items-center gap-1">
+                <!-- La M del footer -->
+                <span>Estrategia & Tecnología</span>
+                <span class="font-black text-sm bg-gradient-to-r from-blue-500 to-emerald-400 bg-clip-text text-transparent ml-1">M</span>
+            </div>
         </div>
     </footer>
 
